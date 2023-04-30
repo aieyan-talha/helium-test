@@ -77,7 +77,7 @@ export const Landing = () => {
         setStarredExercise(exerciseData?.data?.starredExercises);
       });
     }
-  }, [userData.id]);
+  }, [userData?.id]);
 
   return (
     <div className="body-background">
